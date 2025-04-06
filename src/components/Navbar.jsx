@@ -196,6 +196,7 @@ export default function Navbar() {
               className="flex items-center space-x-2 bg-primary/10 hover:bg-primary/20"
               onClick={connectWallet}
             >
+              
               <Wallet className="h-5 w-5" />
               <span>{walletAddress ? `${walletAddress.slice(0, 6)}...${walletAddress.slice(-4)}` : "Connect Wallet"}</span>
             </Button>
